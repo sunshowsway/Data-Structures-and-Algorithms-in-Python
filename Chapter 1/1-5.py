@@ -1,0 +1,1 @@
+sum([i * i for i in range(n)])
