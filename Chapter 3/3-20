@@ -1,0 +1,9 @@
+For n = 2:
+n^2 = n*log(n)
+
+For n > 2:
+n^2 > n*log(n)
+
+-> n^2 >= n*log(n)
+
+n^2 is Ω(n*log(n))

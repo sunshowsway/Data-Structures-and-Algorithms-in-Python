@@ -1,0 +1,3 @@
+The running time of A is always O(f(n))
+-> A <= cf(n) for some real constant c > 0
+-> In the worst case, A = cf(n)

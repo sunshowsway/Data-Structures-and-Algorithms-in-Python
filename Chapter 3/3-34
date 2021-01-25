@@ -1,0 +1,1 @@
+Assuming that meal quality is distributed randomly across a person's life, the expected number of times is O(log(n))

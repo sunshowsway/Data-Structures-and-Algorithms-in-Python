@@ -1,0 +1,6 @@
+Given: d(n) is O(f(n))
+and:   f(n) is O(g(n))
+-> d(n) <= cf(n) for some real constant c > 0
+-> d(n) <= c*c'g(n) for some real constant c' > 0
+-> d(n) <= c''g(n) for some real constnat c'' > 0
+-> d(n) is O(g(n))

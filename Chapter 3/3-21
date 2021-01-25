@@ -1,0 +1,9 @@
+For n = 2:
+n*log(n) = n
+
+For n > 2:
+n*log(n) > n
+
+-> n*log(n) >= n
+
+n*log(n) is Ω(n)

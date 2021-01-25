@@ -1,0 +1,2 @@
+c*n*log(n), where c is some real constant c > 0
+A is O(nlog(n))

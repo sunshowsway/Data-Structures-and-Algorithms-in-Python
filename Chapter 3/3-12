@@ -1,0 +1,10 @@
+Given: d(n) is O(f(n))
+and:   e(n) is O(g(n))
+
+Let d(n) = 2n
+and e(n) = n
+
+-> d(n) - e(n) = n
+-> O(f(n) - g(n)) = O(n - n) = O(1)
+
+However, n != O(1)

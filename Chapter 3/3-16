@@ -1,0 +1,5 @@
+Given: p(n) = n^x + n^(x-1) + ... + c
+-> log(p(n)) = log(n^x + n^(x-1) + ... + c)
+-> log(p(n)) = (x + (x-1) + ... + 0)*log(n)
+-> log(p(n)) <= d*log(n), where d is some real constant > 0
+-> log(p(n)) is O(log(n))

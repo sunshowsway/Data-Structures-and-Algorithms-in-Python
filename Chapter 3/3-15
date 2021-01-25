@@ -1,0 +1,3 @@
+f(n) <= c(g(n))
+-> g(n) >= c'f(n), where c' = 1/c 
+-> f(n) is O(g(n)) iff g(n) is Ω(f(n))

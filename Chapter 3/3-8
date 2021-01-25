@@ -1,0 +1,19 @@
+Constant:
+2^10
+
+Linear:
+2^log(n)  // 2^log(n) = n^log(2) = n
+3n + 100log(n)
+4n
+
+n-Log-n:
+4nlog(n) + 2n
+
+Quadratic:
+n^2
+
+Cubic:
+n^3
+
+Exponential:
+2^n

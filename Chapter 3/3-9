@@ -1,0 +1,5 @@
+Given: d(n) is O(f(n))
+-> d(n) <= cf(n) for some real constant c > 0
+-> ad(n) <= a*cf(n) for any constant a > 0
+-> ad(n) <= c'f(n) for some real constant c' = a * c, where c' > 0
+-> ad(n) is O(f(n))

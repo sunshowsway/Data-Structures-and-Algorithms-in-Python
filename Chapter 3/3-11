@@ -1,0 +1,5 @@
+Given: d(n) is O(f(n))
+and:   e(n) is O(g(n))
+-> d(n) <= cf(n) and e(n) <= c'g(n), where c and c' are some real constants > 0
+-> d(n) + e(n) <= cf(n) + c'g(n) (As the largest value on the RHS is cf(n) + c'g(n))
+-> d(n) + e(n) is O(f(n) + g(n))

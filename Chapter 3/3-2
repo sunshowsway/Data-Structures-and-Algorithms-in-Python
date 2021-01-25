@@ -1,0 +1,6 @@
+8n*log(n) < 2*n^2
+8*log(n) < 2n
+4*log(n) < n
+4 < n/log(n)
+...
+n > 16

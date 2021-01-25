@@ -1,0 +1,9 @@
+Assume 0 + 2 + ... + (2n-2) + 2n = n(n+1)
+
+Base case (n=1):
+LHS = 0 + 2 = 2
+RHS = 1(2) = 2
+
+n+1th case:
+LHS = 0 + ... + 2(n+1) = n(n+1) + 2(n+1) = n^2 + 3n + 2
+RHS = n+1(n+2) = n^2 + 3n + 2
