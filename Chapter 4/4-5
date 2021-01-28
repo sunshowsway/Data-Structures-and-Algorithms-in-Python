@@ -1,0 +1,31 @@
+// Psuedo-code
+Algorithm PuzzleSolve(k, S, U):
+    for each e in U:
+        S.appendRight(e)
+        U.removeLeft(e)
+        if k == 1:
+            if S.solvesPuzzle():
+               return S
+        else:
+            PuzzleSolve(k-1, S, u)
+        S.removeRight(e)
+        U.appendRight(e)
+
+
+PuzzleSolve(3, (), {a,b,c,d})
+PuzzleSolve(2, a, {b,c,d})
+PuzzleSolve(1, ab, {c,d})
+PuzzleSolve(1, ac, {b,d})
+PuzzleSolve(1, ad, {b,c})
+PuzzleSolve(2, b, {c,d,a})
+PuzzleSolve(1, bc, {d,a})
+PuzzleSolve(1, bd, {a,c})
+PuzzleSolve(1, ba, {c,d})
+PuzzleSolve(2, c, {d,a,b})
+PuzzleSolve(1, cd, {a,b})
+PuzzleSolve(1, ca, {d,b})
+PuzzleSolve(1, cb, {d,a})
+PuzzleSolve(2, d, {a,b,c})
+PuzzleSolve(1, da, {b,c})
+PuzzleSolve(1, db, {a,c})
+PuzzleSolve(1, dc, {a,b})
