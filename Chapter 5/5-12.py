@@ -1,0 +1,1 @@
+total = sum(val for row in data for val in row)
