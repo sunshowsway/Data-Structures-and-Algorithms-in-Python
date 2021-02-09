@@ -1,0 +1,1 @@
+For each opening grouping symbol in a given arithmetic expression, the subsequent grouping symbol must either be its corresponding closing grouping symbol or another opening grouping symbol for the expression to have a matching group of symbols.

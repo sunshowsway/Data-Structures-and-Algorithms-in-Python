@@ -1,0 +1,1 @@
+If the resize is performed such that the order of the initial array remains intact, then the order of the queue will be disrupted, as subsequent enqueue operations will insert elements between the element previously at the end of the initial array and the element previously at the start of the initial array
